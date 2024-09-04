@@ -14,7 +14,7 @@ function updateStorage(){
 createBtn.addEventListener("click", ()=>{
     let inputBox = document.createElement("p");
     let img = document.createElement("img");
-    img.src = "images/bin.png"
+    img.src = "bin.png"
     inputBox.className = "input-box";
     inputBox.setAttribute("contenteditable", "true");
     notesContainer.appendChild(inputBox).appendChild(img);
